@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Fare design con Figma &#8211; OpenAcademy</title>
+	<atom:link href="/category/corsi-sul-web-3-0/fare-design-con-figma/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Sat, 18 May 2024 19:05:55 +0000</lastBuildDate>
+	<language>it-IT</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>Lezione 3: prototipazione e condivisione in Figma</title>
+		<link>/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/</link>
+					<comments>/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/#respond</comments>
+		
+		<dc:creator><![CDATA[Riccardo Cambò]]></dc:creator>
+		<pubDate>Sat, 18 May 2024 18:56:08 +0000</pubDate>
+				<category><![CDATA[Fare design con Figma]]></category>
+		<guid isPermaLink="false">/?p=40</guid>
+
+					<description><![CDATA[Benvenuti alla terza e ultima lezione del nostro corso su Figma! In questa lezione, esploreremo le funzionalità di prototipazione e condivisione di Figma, che consentono di creare prototipi interattivi e collaborare con il vostro team di progettazione. Creazione di prototipi interattivi Figma offre strumenti potenti per creare prototipi interattivi che consentono di simulare l&#8217;esperienza utente [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading"></h3>
+
+
+
+<p>Benvenuti alla terza e ultima lezione del nostro corso su Figma! In questa lezione, esploreremo le funzionalità di prototipazione e condivisione di Figma, che consentono di creare prototipi interattivi e collaborare con il vostro team di progettazione.</p>
+
+
+
+<h4 class="wp-block-heading">Creazione di prototipi interattivi</h4>
+
+
+
+<p>Figma offre strumenti potenti per creare prototipi interattivi che consentono di simulare l&#8217;esperienza utente e testare il flusso dell&#8217;applicazione. Ecco alcuni passaggi per creare un prototipo in Figma:</p>
+
+
+
+<ol>
+<li><strong>Creare schermate</strong>: utilizzate il canvas per creare le schermate del vostro prototipo, includendo tutte le pagine e le interazioni desiderate.</li>
+
+
+
+<li><strong>Aggiungere link</strong>: selezionate un elemento grafico su una schermata e aggiungete un link a un&#8217;altra schermata del prototipo. Potete definire azioni come clic, hover, tap e altro ancora.</li>
+
+
+
+<li><strong>Definire interazioni</strong>: utilizzate il pannello di prototipazione per definire le interazioni tra le schermate, come transizioni, animazioni e comportamenti degli elementi.</li>
+
+
+
+<li><strong>Testare il prototipo</strong>: utilizzate la modalità di anteprima per testare il prototipo e verificare il flusso dell&#8217;applicazione.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Condivisione del prototipo</h4>
+
+
+
+<p>Una volta creato il prototipo, potete condividerlo con il vostro team di progettazione o con i clienti per ottenere feedback e collaborare. Figma offre diverse opzioni per la condivisione del prototipo:</p>
+
+
+
+<ol>
+<li><strong>Condivisione link</strong>: generare un link pubblico per il prototipo e condividerlo con chiunque voglia visualizzarlo. È possibile impostare autorizzazioni di visualizzazione o modifica per controllare l&#8217;accesso.</li>
+
+
+
+<li><strong>Embedding</strong>: incorporare il prototipo direttamente in un sito web o in una presentazione utilizzando il codice di embed fornito da Figma.</li>
+
+
+
+<li><strong>Collaborazione in tempo reale</strong>: consentire ai membri del team di visualizzare e modificare il prototipo in tempo reale, facilitando la collaborazione e la revisione del design.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Feedback e revisione</h4>
+
+
+
+<p>Figma offre strumenti integrati per la raccolta di feedback e la revisione del design. I membri del team possono aggiungere commenti direttamente sul prototipo, evidenziare aree di interesse e suggerire modifiche. Questo facilita il processo di iterazione e miglioramento del design.</p>
+
+
+
+<h4 class="wp-block-heading">Esportazione delle risorse</h4>
+
+
+
+<p>Una volta completato il design e il prototipo, potete esportare le risorse per l&#8217;integrazione con altri strumenti e processi di sviluppo. Figma offre opzioni per esportare singoli elementi, schermate o l&#8217;intero progetto in vari formati, tra cui PNG, SVG, PDF e altro ancora.</p>
+
+
+
+<h3 class="wp-block-heading">Conclusione</h3>
+
+
+
+<p>In questa lezione, abbiamo esplorato le funzionalità di prototipazione e condivisione di Figma. Avete imparato come creare prototipi interattivi, condividere il vostro lavoro con il team e raccogliere feedback e revisioni direttamente in Figma. Utilizzando queste funzionalità, potete migliorare la collaborazione, accelerare il processo decisionale e creare design straordinari. Continuate a esplorare e praticare con Figma per diventare esperti designer di interfacce utente!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lezione 2: disegno e modifica in Figma</title>
+		<link>/2024/05/18/lezione-2-disegno-e-modifica-in-figma/</link>
+					<comments>/2024/05/18/lezione-2-disegno-e-modifica-in-figma/#respond</comments>
+		
+		<dc:creator><![CDATA[Riccardo Cambò]]></dc:creator>
+		<pubDate>Sat, 18 May 2024 18:53:45 +0000</pubDate>
+				<category><![CDATA[Fare design con Figma]]></category>
+		<guid isPermaLink="false">/?p=38</guid>
+
+					<description><![CDATA[Benvenuti alla seconda lezione del nostro corso su Figma! In questa lezione, approfondiremo le funzionalità di disegno e modifica di base offerte da Figma e impareremo a creare e personalizzare elementi grafici. Strumenti di Disegno Figma offre una vasta gamma di strumenti di disegno che consentono di creare e modificare elementi grafici. Alcuni degli strumenti [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading"></h3>
+
+
+
+<p>Benvenuti alla seconda lezione del nostro corso su Figma! In questa lezione, approfondiremo le funzionalità di disegno e modifica di base offerte da Figma e impareremo a creare e personalizzare elementi grafici.</p>
+
+
+
+<h4 class="wp-block-heading">Strumenti di Disegno</h4>
+
+
+
+<p>Figma offre una vasta gamma di strumenti di disegno che consentono di creare e modificare elementi grafici. Alcuni degli strumenti più comuni includono:</p>
+
+
+
+<ol>
+<li><strong>Pen tool</strong>: Per disegnare tracciati e forme personalizzate utilizzando punti di ancoraggio e curve di Bézier.</li>
+
+
+
+<li><strong>Shape tool</strong>: Per inserire forme predefinite come rettangoli, cerchi, poligoni e molto altro ancora.</li>
+
+
+
+<li><strong>Text tool</strong>: Per aggiungere testo alle vostre composizioni, con opzioni per modificare il carattere, la dimensione, il colore e lo stile del testo.</li>
+
+
+
+<li><strong>Selection tool</strong>: Per selezionare, spostare, ridimensionare e trasformare elementi esistenti sulla canvas.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Creazione di elementi grafici</h4>
+
+
+
+<p>Per creare un nuovo elemento grafico in Figma, seguite questi passaggi:</p>
+
+
+
+<ol>
+<li>Selezionate lo strumento appropriato dalla barra degli strumenti.</li>
+
+
+
+<li>Cliccate sulla canvas per iniziare a disegnare o inserire l&#8217;elemento desiderato.</li>
+
+
+
+<li>Utilizzate i manipolatori di selezione per regolare la forma, la dimensione e la posizione dell&#8217;elemento.</li>
+
+
+
+<li>Personalizzate le proprietà dell&#8217;elemento utilizzando il pannello delle proprietà, come il colore, lo stile del bordo, la trasparenza e altro ancora.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Modifica degli elementi grafici</h4>
+
+
+
+<p>Una volta creati gli elementi grafici, è possibile modificarli in diversi modi:</p>
+
+
+
+<ol>
+<li><strong>Selezione e trascinamento</strong>: selezionate un elemento con lo strumento di selezione e trascinatelo sulla canvas per spostarlo.</li>
+
+
+
+<li><strong>Ridimensionamento</strong>: utilizzate i manipolatori di selezione per ridimensionare l&#8217;elemento in altezza, larghezza o entrambi.</li>
+
+
+
+<li><strong>Trasformazione</strong>: utilizzate gli strumenti di trasformazione per ruotare, inclinare o riflettere l&#8217;elemento.</li>
+
+
+
+<li><strong>Modifica delle proprietà</strong>: utilizzate il pannello delle proprietà per modificare le proprietà dell&#8217;elemento selezionato, come il colore, lo stile del bordo, la trasparenza e altro ancora.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Gruppi e organizzazione</h4>
+
+
+
+<p>Per organizzare gli elementi sulla canvas, è possibile raggrupparli in gruppi e frame:</p>
+
+
+
+<ol>
+<li><strong>Gruppi</strong>: selezionate più elementi e raggruppateli utilizzando il comando &#8220;Group&#8221; dal menu o premendo Ctrl + G. I gruppi consentono di gestire più elementi come un singolo oggetto.</li>
+
+
+
+<li><strong>Frame</strong>: utilizzate il frame per creare contenitori per gli elementi, consentendo di organizzare e gestire i contenuti in modo strutturato.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Esercizio pratico</h4>
+
+
+
+<p>Provate a creare una semplice interfaccia utente utilizzando gli strumenti di disegno e modifica di Figma. Iniziate con elementi grafici di base come rettangoli, cerchi, testo e linee, e poi personalizzate gli elementi utilizzando le opzioni disponibili.</p>
+
+
+
+<h3 class="wp-block-heading">Conclusione</h3>
+
+
+
+<p>In questa lezione, abbiamo esplorato le funzionalità di disegno e modifica di base di Figma. Avete imparato a utilizzare gli strumenti di disegno, a creare e personalizzare elementi grafici e a organizzare gli elementi sulla canvas utilizzando gruppi e frame. Nella prossima lezione, approfondiremo le funzionalità di prototipazione e condivisione di Figma, consentendovi di creare prototipi interattivi e collaborare con il vostro team di progettazione.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Lezione 1: Fare design: come?</title>
+		<link>/2024/05/18/lezione-1-fare-design-come/</link>
+					<comments>/2024/05/18/lezione-1-fare-design-come/#respond</comments>
+		
+		<dc:creator><![CDATA[Riccardo Cambò]]></dc:creator>
+		<pubDate>Sat, 18 May 2024 18:51:34 +0000</pubDate>
+				<category><![CDATA[Fare design con Figma]]></category>
+		<guid isPermaLink="false">/?p=36</guid>
+
+					<description><![CDATA[Introduzione a Figma Benvenuti alla prima lezione del nostro corso introduttivo a Figma! In questa lezione, esploreremo i concetti fondamentali di Figma e impareremo come iniziare a utilizzare questo potente strumento di progettazione. Cos&#8217;è Figma? Figma è una piattaforma di progettazione basata su cloud che consente ai team di progettazione di creare, collaborare e prototipare [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Introduzione a Figma</h3>
+
+
+
+<p>Benvenuti alla prima lezione del nostro corso introduttivo a Figma! In questa lezione, esploreremo i concetti fondamentali di Figma e impareremo come iniziare a utilizzare questo potente strumento di progettazione.</p>
+
+
+
+<h4 class="wp-block-heading">Cos&#8217;è Figma?</h4>
+
+
+
+<p>Figma è una piattaforma di progettazione basata su cloud che consente ai team di progettazione di creare, collaborare e prototipare interfacce utente e design grafico in modo efficiente. Figma offre una vasta gamma di funzionalità, tra cui la progettazione di layout, la creazione di vettori, la gestione degli stili, la prototipazione interattiva e molto altro ancora.</p>
+
+
+
+<h4 class="wp-block-heading">Interfaccia di Figma</h4>
+
+
+
+<p>Quando accedete a Figma, vi troverete di fronte all&#8217;interfaccia principale, che è suddivisa in diverse sezioni:</p>
+
+
+
+<ol>
+<li><strong>Toolbar</strong>: la barra degli strumenti situata nella parte superiore fornisce accesso rapido agli strumenti di disegno, alla selezione degli oggetti, al testo e altro ancora.</li>
+
+
+
+<li><strong>Canvas</strong>: il canvas è lo spazio di lavoro principale dove potete creare e modificare i vostri design. Qui potete disegnare, posizionare elementi, creare layout e altro ancora.</li>
+
+
+
+<li><strong>Layers panel</strong>: il pannello dei livelli mostra una gerarchia di tutti gli elementi presenti sul canvas. Qui potete organizzare gli elementi, modificarne l&#8217;ordine e raggrupparli.</li>
+
+
+
+<li><strong>Properties panel</strong>: il pannello delle proprietà fornisce opzioni per modificare le proprietà degli elementi selezionati, come il colore, la dimensione, lo stile del testo, ecc.</li>
+
+
+
+<li><strong>Prototyping panel</strong>: il pannello di prototipazione consente di creare prototipi interattivi collegando le schermate e definendo azioni come clic, hover, e altro ancora.</li>
+
+
+
+<li><strong>Commenti e collaborazione</strong>: Figma offre strumenti integrati per commentare i design, condividere prototipi e collaborare in tempo reale con membri del team.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Creazione di un nuovo progetto</h4>
+
+
+
+<p>Per iniziare a lavorare su un nuovo progetto in Figma, seguite questi passaggi:</p>
+
+
+
+<ol>
+<li>Accedete al vostro account Figma o create un nuovo account se non ne avete già uno.</li>
+
+
+
+<li>Una volta effettuato l&#8217;accesso, cliccate su &#8220;New file&#8221; per creare un nuovo progetto.</li>
+
+
+
+<li>Scegliete il tipo di progetto che volete creare, come un design vuoto, un template predefinito o un progetto basato su un file esistente.</li>
+</ol>
+
+
+
+<h4 class="wp-block-heading">Primo approccio al disegno</h4>
+
+
+
+<p>Una volta aperto un nuovo progetto, potete iniziare a disegnare sulla canvas utilizzando gli strumenti di disegno, l&#8217;inserimento di forme, il testo e altro ancora. Esplorate la barra degli strumenti e provate a creare alcuni elementi di base per prendere confidenza con l&#8217;interfaccia di Figma.</p>
+
+
+
+<h3 class="wp-block-heading">Conclusione</h3>
+
+
+
+<p>In questa lezione, abbiamo introdotto i concetti fondamentali di Figma e abbiamo esplorato l&#8217;interfaccia principale. Avete imparato cosa è Figma, come navigare nell&#8217;interfaccia e come iniziare un nuovo progetto. Nella prossima lezione, esploreremo le funzionalità di disegno di base di Figma e impareremo a creare e modificare elementi grafici.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024/05/18/lezione-1-fare-design-come/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

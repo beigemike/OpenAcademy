@@ -1,0 +1,1116 @@
+[2024-05-18 21:49:06] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-05-18 21:49:06] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-05-18 21:49:06] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-05-18 21:49:07] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-05-18 21:49:07] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-05-18 21:49:07] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-05-18 21:49:07] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946\
+[2024-05-18 21:49:07] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/
+[2024-05-18 21:49:07] [class-ss-setup-task.php:137] File C:\xampp\htdocs\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-18 21:49:07] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-05-18 21:49:07] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-18 21:49:07] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-18 21:49:07] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-05-18 21:49:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/
+[2024-05-18 21:49:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-05-18 21:49:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492253793a7-PKTf7k.tmp
+[2024-05-18 21:49:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/?simply_static_page=80
+[2024-05-18 21:49:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/?simply_static_page=80
+[2024-05-18 21:49:08] [class-ss-url-fetcher.php:103] Filesize: 117358 bytes
+[2024-05-18 21:49:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:08] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-05-18 21:49:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492253793a7-PKTf7k.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/index.html
+[2024-05-18 21:49:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:08] [class-ss-fetch-urls-task.php:158] Adding 27 URLs to the queue
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Qˆ¸À<¸¥ò∏è´‡C süÄ
+[2024-05-18 21:49:09] [class-ss-page.php:125] Checking Content Identical:51f6fc13cb3cfcb49807b88fabe043ca739f8010===. Value: TRUE
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-18 21:49:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-05-18 21:49:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-05-18 21:49:09] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-18 21:49:09] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-18 21:49:09] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:69] Total pages: 28; Pages remaining: 26
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pagina-di-esempio/
+[2024-05-18 21:49:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 28
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922551dc7a-TQwHae.tmp
+[2024-05-18 21:49:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pagina-di-esempio/?simply_static_page=82
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pagina-di-esempio/?simply_static_page=82
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:103] Filesize: 62421 bytes
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-di-esempio/index.html
+[2024-05-18 21:49:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922551dc7a-TQwHae.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/pagina-di-esempio/index.html
+[2024-05-18 21:49:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 17 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Æ™ÙÚç“'K%qÌ”jsúºôà
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:aeaaf4f28dd227154b2571ed15d36a739cbc9988===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/rocket.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922569221f-os98iz.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/rocket.webp?simply_static_page=83
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/rocket.webp?simply_static_page=83
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 91954 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/rocket.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922569221f-os98iz.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/rocket.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: lg#wO(˛6IŸ¥ñ h˝˚1“
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:6c6723774f28fe3649d91fb4962068fdfb7f31d2===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/computer-hands.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922569d271-e8CMpL.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/computer-hands.webp?simply_static_page=84
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/computer-hands.webp?simply_static_page=84
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 289500 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/computer-hands.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922569d271-e8CMpL.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/computer-hands.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Bpë‡î/zòc§ÃÛË‚*ç
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:42709112e0942f7a980763a4ccf3e8e21c2a8d0f===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-4.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256a54bb-265eGc.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/avatar-4.webp?simply_static_page=85
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-4.webp?simply_static_page=85
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 57434 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/avatar-4.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256a54bb-265eGc.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/avatar-4.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: „d™Éà8ﬂÜ¡`aAWz8Øi;
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:e364aa838838df86c160614157150a7a38af693b===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-1.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256ac21d-7Psiw0.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/avatar-1.webp?simply_static_page=86
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-1.webp?simply_static_page=86
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 43082 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/avatar-1.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256ac21d-7Psiw0.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/avatar-1.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: C∏ª.q≥èfd6Ó∑ÄâX¿
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:1a43b8bb2e1071b31f8f666436eeb780895807c0===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-5.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256b435e-jLe7z4.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/avatar-5.webp?simply_static_page=87
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-5.webp?simply_static_page=87
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 30236 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/avatar-5.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256b435e-jLe7z4.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/avatar-5.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: XÃuåWﬁeΩˇ5ˇIö∏5ãK∑
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:581fcc12758c57de65bdff35ff499ab8358b4bb7===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-2.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256bb42b-p90ASY.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/avatar-2.webp?simply_static_page=88
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/avatar-2.webp?simply_static_page=88
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 86024 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/avatar-2.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256bb42b-p90ASY.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/avatar-2.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˝5ï≥)… F¶öÒÌ‡;HFf`
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:fd359503b329c92046a69af1ede0013b48466660===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-1.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256c3176-OW9fRF.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/logo-1.webp?simply_static_page=89
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-1.webp?simply_static_page=89
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 2286 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/logo-1.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256c3176-OW9fRF.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/logo-1.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: PÌ$YMw(#»cfJzf[»¨t
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:50ed1524594d772823c863664a7a665bc8ac0d74===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-2.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256c8a64-Mb6C9W.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/logo-2.webp?simply_static_page=90
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-2.webp?simply_static_page=90
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 4386 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/logo-2.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256c8a64-Mb6C9W.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/logo-2.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: =ƒ‹ö˙»*Z“¸àÚ˘>5Ω˙¥
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:3dc4dc9afa0bc82a0a5ad2fc88f2f93e35bdfab4===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-3.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256cf71f-po8tvt.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/logo-3.webp?simply_static_page=91
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-3.webp?simply_static_page=91
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 2722 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/logo-3.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256cf71f-po8tvt.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/logo-3.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: 8!G®o∑¥ˇkıCı` *H˛&
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:3821470da86fb7b4ff6bf543f560002a0b48fe26===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-4.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256d4fba-UIZhYn.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/logo-4.webp?simply_static_page=92
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-4.webp?simply_static_page=92
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 4020 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/logo-4.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256d4fba-UIZhYn.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/logo-4.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: VûÀ-L„}ªEl'ÜjÛåÁ)
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:569ecb062d4ce37dbb450f6c2786156af38ce729===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-5.webp
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256e00a4-zJC8Hm.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/patterns/images/logo-5.webp?simply_static_page=93
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/patterns/images/logo-5.webp?simply_static_page=93
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 1564 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/patterns/images/logo-5.webp
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256e00a4-zJC8Hm.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/patterns/images/logo-5.webp
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: KèåÇ™¿‚ˇÁÜîEKjx QÁ
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:4b8f8c82aac0e2ff1112e78694454b6a780051e7===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/navigation/view.min.js
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256e5ede-Fy6kim.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/navigation/view.min.js?simply_static_page=94
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/navigation/view.min.js?simply_static_page=94
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256e5ede-Fy6kim.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/navigation/view.min.js
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ≤{®”πéﬂ’#÷ËB)’/˝
+[2024-05-18 21:49:10] [class-ss-page.php:125] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: TRUE
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/feed/
+[2024-05-18 21:49:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 28
+[2024-05-18 21:49:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492256eb0f0-lYTg1Z.tmp
+[2024-05-18 21:49:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/feed/?simply_static_page=95
+[2024-05-18 21:49:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/feed/?simply_static_page=95
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:103] Filesize: 62978 bytes
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492256eb0f0-lYTg1Z.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/feed/index.xml
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:158] Adding 22 URLs to the queue
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ß¨û˛\¯•⁄Ÿﬁ-Ä¬U˘ªÌ_∆
+[2024-05-18 21:49:11] [class-ss-page.php:125] Checking Content Identical:a7ac9efe5cf8a5dad9de2d80c25514f9bbed5fc6===. Value: TRUE
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/comments/feed/
+[2024-05-18 21:49:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 28
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225790e3b-NXcs42.tmp
+[2024-05-18 21:49:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/comments/feed/?simply_static_page=96
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/comments/feed/?simply_static_page=96
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:103] Filesize: 2436 bytes
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225790e3b-NXcs42.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/comments/feed/index.xml
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:171] SHA1 BINARY:  cÇ˘JúN`¨v_˝eß´–
+[2024-05-18 21:49:11] [class-ss-page.php:125] Checking Content Identical:ca6382f94a9c4e60ac02765f1bfd0d65a7ab06d0===. Value: TRUE
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/navigation/style.min.css
+[2024-05-18 21:49:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 28
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492257ecc04-XY4QhO.tmp
+[2024-05-18 21:49:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/navigation/style.min.css?simply_static_page=97
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/navigation/style.min.css?simply_static_page=97
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-05-18 21:49:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492257ecc04-XY4QhO.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/navigation/style.min.css
+[2024-05-18 21:49:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ß^ﬂTB¡ñ÷p‰6¬ˆÏ’ï‰h
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/assets/styles/core-navigation.css
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922580ceab-GJgHTK.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/assets/styles/core-navigation.css?simply_static_page=98
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/assets/styles/core-navigation.css?simply_static_page=98
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 4412 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/assets/styles/core-navigation.css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922580ceab-GJgHTK.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/assets/styles/core-navigation.css
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ó®ëÍ+QD˘Qäf¬F[õÿ’óí0
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:97a891ea2b5144f9518a66c2465b9bd8d5979230===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/cover/style.min.css
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225814a6d-mkAY2B.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/cover/style.min.css?simply_static_page=99
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/cover/style.min.css?simply_static_page=99
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 18483 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225814a6d-mkAY2B.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/cover/style.min.css
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ã˚zÙ*¢¶»5˛HA@t—9‚W
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:ccfb7af42aa2a6c835fe114841124074d139e257===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/image/style.min.css
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492258263f4-FtwXgR.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/image/style.min.css?simply_static_page=100
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/image/style.min.css?simply_static_page=100
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492258263f4-FtwXgR.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/image/style.min.css
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Z/∑zÔ÷œ¥¥i™LGº
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/social-links/style.min.css
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922582f024-W14nmS.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/social-links/style.min.css?simply_static_page=101
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/social-links/style.min.css?simply_static_page=101
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 10602 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922582f024-W14nmS.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/social-links/style.min.css
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: lˆy⁄°:fõ˝Ùãß†?cﬁ
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:6c08f679daa13a669bfdf48b1ca7a03f6312de07===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/css/dashicons.min.css
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225840f88-HTKs2x.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/css/dashicons.min.css?simply_static_page=102
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/css/dashicons.min.css?simply_static_page=102
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 59016 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dashicons.min.css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225840f88-HTKs2x.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/css/dashicons.min.css
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ù}6Hæ¥/Ê.D”LÁÂˆ*öπ
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:f47d3648beb42f03e62e441cd34ce7e5f62a9ab9===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/style.css
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922586e07b-g5ye2T.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/style.css?simply_static_page=103
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/style.css?simply_static_page=103
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 3925 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/style.css
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922586e07b-g5ye2T.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/style.css
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˘»]ÊìˇHeÜ_ÁpF˛Œvô
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:f9c8035de693ff1b4865865fe77046fe0ece7699===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xmlrpc.php
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xmlrpc.php
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/js/dist/interactivity.min.js
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922587b1e7-GeByJ9.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/js/dist/interactivity.min.js?simply_static_page=106
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/js/dist/interactivity.min.js?simply_static_page=106
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922587b1e7-GeByJ9.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/js/dist/interactivity.min.js
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: î“-HóüFVÙixø‘∂zÎÏ
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/ollie/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 28
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492258889ba-Hs1kTh.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/ollie/assets/fonts/Inter-VariableFont_slnt,wght.woff2?simply_static_page=107
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/ollie/assets/fonts/Inter-VariableFont_slnt,wght.woff2?simply_static_page=107
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/ollie/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492258889ba-Hs1kTh.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-content/themes/ollie/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: @Tmø’ƒg√%}è:JÿØôïÆ∂
+[2024-05-18 21:49:12] [class-ss-page.php:125] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: TRUE
+[2024-05-18 21:49:12] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 28 pages/files
+[2024-05-18 21:49:12] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-18 21:49:12] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-18 21:49:12] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:69] Total pages: 55; Pages remaining: 27
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-admin/
+[2024-05-18 21:49:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 55
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225894ecd-J7sbjw.tmp
+[2024-05-18 21:49:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-admin/?simply_static_page=108
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-admin/?simply_static_page=108
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:12] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fwp-admin%2F%3Fsimply_static_page%3D108&reauth=1
+[2024-05-18 21:49:12] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-05-18 21:49:13] [class-ss-page.php:125] Checking Content Identical:704ebdff5b6bff300ad9427aa6d204c6233ef733===. Value: TRUE
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pagina-di-esempio/feed/
+[2024-05-18 21:49:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 55
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922590ccb8-KKe0J0.tmp
+[2024-05-18 21:49:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pagina-di-esempio/feed/?simply_static_page=109
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pagina-di-esempio/feed/?simply_static_page=109
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:103] Filesize: 737 bytes
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-di-esempio/feed/index.xml
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922590ccb8-KKe0J0.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/pagina-di-esempio/feed/index.xml
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ⁄πtRuaÎﬂ÷‚»sxªÓ àÏ¶
+[2024-05-18 21:49:13] [class-ss-page.php:125] Checking Content Identical:dab974527561ebdfd6e2c87378bbeeca881ceca6===. Value: TRUE
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/pages/2
+[2024-05-18 21:49:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 55
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/pages/2
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/oembed/1.0/embed
+[2024-05-18 21:49:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 55
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/oembed/1.0/embed
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/
+[2024-05-18 21:49:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 55
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492259700f8-iXOsTj.tmp
+[2024-05-18 21:49:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/?simply_static_page=112
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/?simply_static_page=112
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:103] Filesize: 81075 bytes
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/index.html
+[2024-05-18 21:49:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492259700f8-iXOsTj.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/index.html
+[2024-05-18 21:49:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:14] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2024-05-18 21:49:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:14] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: x‚Hj-˘ﬁö>yŸA:ˇ˝4—
+[2024-05-18 21:49:14] [class-ss-page.php:125] Checking Content Identical:78e2486a2d7ff90fde179a3e79d9413afffd34d1===. Value: TRUE
+[2024-05-18 21:49:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed/
+[2024-05-18 21:49:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 55
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225b00c51-OpsoI1.tmp
+[2024-05-18 21:49:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed/?simply_static_page=113
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed/?simply_static_page=113
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:103] Filesize: 872 bytes
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed/index.xml
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225b00c51-OpsoI1.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed/index.xml
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: .†Ö£"ƒ‹6@d@ÅáA@»pŸ£
+[2024-05-18 21:49:15] [class-ss-page.php:125] Checking Content Identical:2ea085a322c4dc364064401081874140c870d9a3===. Value: TRUE
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-2-disegno-e-modifica-in-figma/
+[2024-05-18 21:49:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 55
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225b610ba-QIelBZ.tmp
+[2024-05-18 21:49:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-2-disegno-e-modifica-in-figma/?simply_static_page=114
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-2-disegno-e-modifica-in-figma/?simply_static_page=114
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:103] Filesize: 81418 bytes
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-2-disegno-e-modifica-in-figma/index.html
+[2024-05-18 21:49:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225b610ba-QIelBZ.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-2-disegno-e-modifica-in-figma/index.html
+[2024-05-18 21:49:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:16] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2024-05-18 21:49:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:16] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Xö„Z"˚∏¨˚†"êH†ÁΩÔî
+[2024-05-18 21:49:16] [class-ss-page.php:125] Checking Content Identical:589ae35a2219fbb8acfba014229048a0e7bdef94===. Value: TRUE
+[2024-05-18 21:49:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed/
+[2024-05-18 21:49:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 55
+[2024-05-18 21:49:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225ce28cd-6Qc88M.tmp
+[2024-05-18 21:49:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed/?simply_static_page=115
+[2024-05-18 21:49:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed/?simply_static_page=115
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:103] Filesize: 839 bytes
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed/index.xml
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225ce28cd-6Qc88M.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed/index.xml
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: “Öáﬂ(’,+Û√]˙l{
+[2024-05-18 21:49:17] [class-ss-page.php:125] Checking Content Identical:d20d850a87df28d52c1d122b14f3c35dfa6c167b===. Value: TRUE
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-1-fare-design-come/
+[2024-05-18 21:49:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 55
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225d53746-o2b8uW.tmp
+[2024-05-18 21:49:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-1-fare-design-come/?simply_static_page=116
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-1-fare-design-come/?simply_static_page=116
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:103] Filesize: 80841 bytes
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-1-fare-design-come/index.html
+[2024-05-18 21:49:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225d53746-o2b8uW.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-1-fare-design-come/index.html
+[2024-05-18 21:49:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:18] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2024-05-18 21:49:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:18] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: '1>,ÊËDˇŸınæLﬂâ[
+[2024-05-18 21:49:18] [class-ss-page.php:125] Checking Content Identical:27313e2ce67fe844ffd9f56ebe4cdf03895b0d06===. Value: TRUE
+[2024-05-18 21:49:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-1-fare-design-come/feed/
+[2024-05-18 21:49:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 55
+[2024-05-18 21:49:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225ed4046-qtVlgO.tmp
+[2024-05-18 21:49:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-1-fare-design-come/feed/?simply_static_page=117
+[2024-05-18 21:49:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-1-fare-design-come/feed/?simply_static_page=117
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:103] Filesize: 808 bytes
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-1-fare-design-come/feed/index.xml
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225ed4046-qtVlgO.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-1-fare-design-come/feed/index.xml
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: äOi›”ˇNúù˚mÅî∫òÛ;e
+[2024-05-18 21:49:19] [class-ss-page.php:125] Checking Content Identical:0a8a4f69dd0dd3ff4e9c9dfb6d8194ba98f33b65===. Value: TRUE
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-7-multithreading-in-c/
+[2024-05-18 21:49:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 55
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649225f3b0b2-bCth3q.tmp
+[2024-05-18 21:49:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-7-multithreading-in-c/?simply_static_page=118
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-7-multithreading-in-c/?simply_static_page=118
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:103] Filesize: 83726 bytes
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-7-multithreading-in-c/index.html
+[2024-05-18 21:49:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649225f3b0b2-bCth3q.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-7-multithreading-in-c/index.html
+[2024-05-18 21:49:19] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:20] [class-ss-fetch-urls-task.php:158] Adding 26 URLs to the queue
+[2024-05-18 21:49:20] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:20] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ò÷ésü«]),‹#N»vAìÒ¥
+[2024-05-18 21:49:20] [class-ss-page.php:125] Checking Content Identical:f1d68e739fc75d292cdc234ec80a76411293f1b4===. Value: TRUE
+[2024-05-18 21:49:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-7-multithreading-in-c/feed/
+[2024-05-18 21:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 55
+[2024-05-18 21:49:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492260c3ab7-wwEZo0.tmp
+[2024-05-18 21:49:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-7-multithreading-in-c/feed/?simply_static_page=119
+[2024-05-18 21:49:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-7-multithreading-in-c/feed/?simply_static_page=119
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:103] Filesize: 816 bytes
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-7-multithreading-in-c/feed/index.xml
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492260c3ab7-wwEZo0.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-7-multithreading-in-c/feed/index.xml
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: úJ;>Ä⁄ùÊaŒ¸êD,h
+[2024-05-18 21:49:21] [class-ss-page.php:125] Checking Content Identical:9c4a3b3e1780da9de608611ace041efc90442c68===. Value: TRUE
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-6-manipolazione-dei-file-in-c/
+[2024-05-18 21:49:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 55
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226137291-k4uosu.tmp
+[2024-05-18 21:49:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-6-manipolazione-dei-file-in-c/?simply_static_page=120
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-6-manipolazione-dei-file-in-c/?simply_static_page=120
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:103] Filesize: 84827 bytes
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-6-manipolazione-dei-file-in-c/index.html
+[2024-05-18 21:49:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226137291-k4uosu.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-6-manipolazione-dei-file-in-c/index.html
+[2024-05-18 21:49:21] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:22] [class-ss-fetch-urls-task.php:158] Adding 26 URLs to the queue
+[2024-05-18 21:49:22] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:22] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ô`?ëK]ræÍùRÄ”˙'d{⁄∞
+[2024-05-18 21:49:22] [class-ss-page.php:125] Checking Content Identical:99603f914b5d72beea9d5280d3fa270d647bdab0===. Value: TRUE
+[2024-05-18 21:49:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-6-manipolazione-dei-file-in-c/feed/
+[2024-05-18 21:49:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 55
+[2024-05-18 21:49:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492262b37d0-J461v7.tmp
+[2024-05-18 21:49:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-6-manipolazione-dei-file-in-c/feed/?simply_static_page=121
+[2024-05-18 21:49:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-6-manipolazione-dei-file-in-c/feed/?simply_static_page=121
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:103] Filesize: 840 bytes
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-6-manipolazione-dei-file-in-c/feed/index.xml
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492262b37d0-J461v7.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-6-manipolazione-dei-file-in-c/feed/index.xml
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: /©/µÛ&U∏~%≤Îe	6∞
+[2024-05-18 21:49:23] [class-ss-page.php:125] Checking Content Identical:0d2fa9152fb5f31d2655b87e0d25b2eb650936b0===. Value: TRUE
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/
+[2024-05-18 21:49:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 55
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922631e175-4o0phC.tmp
+[2024-05-18 21:49:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/?simply_static_page=122
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/?simply_static_page=122
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:103] Filesize: 83887 bytes
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/index.html
+[2024-05-18 21:49:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922631e175-4o0phC.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/index.html
+[2024-05-18 21:49:23] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:24] [class-ss-fetch-urls-task.php:158] Adding 27 URLs to the queue
+[2024-05-18 21:49:24] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:24] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ⁄Ù˚Üœz3ê…©iK^ÆRo©
+[2024-05-18 21:49:24] [class-ss-page.php:125] Checking Content Identical:daf4fb86cf7a3390c9a9694b5eae52181d7f6fa9===. Value: TRUE
+[2024-05-18 21:49:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/feed/
+[2024-05-18 21:49:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 55
+[2024-05-18 21:49:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922649ed9a-gtsrMb.tmp
+[2024-05-18 21:49:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/feed/?simply_static_page=123
+[2024-05-18 21:49:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/feed/?simply_static_page=123
+[2024-05-18 21:49:24] [class-ss-url-fetcher.php:103] Filesize: 882 bytes
+[2024-05-18 21:49:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:24] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/feed/index.xml
+[2024-05-18 21:49:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922649ed9a-gtsrMb.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/feed/index.xml
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:171] SHA1 BINARY:  ”!òK6x	› ìw$WË*Í
+[2024-05-18 21:49:25] [class-ss-page.php:125] Checking Content Identical:cad30621984b36781f0916dd2093772457e82aea===. Value: TRUE
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-4-la-oop-c/
+[2024-05-18 21:49:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 55
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226506596-0Nq5Pz.tmp
+[2024-05-18 21:49:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-4-la-oop-c/?simply_static_page=124
+[2024-05-18 21:49:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-4-la-oop-c/?simply_static_page=124
+[2024-05-18 21:49:25] [class-ss-url-fetcher.php:103] Filesize: 85385 bytes
+[2024-05-18 21:49:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:25] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-4-la-oop-c/index.html
+[2024-05-18 21:49:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226506596-0Nq5Pz.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-4-la-oop-c/index.html
+[2024-05-18 21:49:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:158] Adding 26 URLs to the queue
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: wÎs√û£Ùáª˛NQ4ÏV˘
+[2024-05-18 21:49:26] [class-ss-page.php:125] Checking Content Identical:0f77eb73c39ea3020b18f487bbfe4e5134ec56f9===. Value: TRUE
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-4-la-oop-c/feed/
+[2024-05-18 21:49:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 55
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922668752e-B1B24z.tmp
+[2024-05-18 21:49:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-4-la-oop-c/feed/?simply_static_page=125
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-4-la-oop-c/feed/?simply_static_page=125
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:103] Filesize: 786 bytes
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-4-la-oop-c/feed/index.xml
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922668752e-B1B24z.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-4-la-oop-c/feed/index.xml
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: qw;§lJÒØf:s‘ôk~õ:ó
+[2024-05-18 21:49:26] [class-ss-page.php:125] Checking Content Identical:71771e3ba46cf04af1af663a73d4996b7e9b3a97===. Value: TRUE
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-3-controllo-del-flusso-in-c/
+[2024-05-18 21:49:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 55
+[2024-05-18 21:49:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492266eaa90-A8dPKY.tmp
+[2024-05-18 21:49:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-3-controllo-del-flusso-in-c/?simply_static_page=126
+[2024-05-18 21:49:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-3-controllo-del-flusso-in-c/?simply_static_page=126
+[2024-05-18 21:49:27] [class-ss-url-fetcher.php:103] Filesize: 85687 bytes
+[2024-05-18 21:49:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:27] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-3-controllo-del-flusso-in-c/index.html
+[2024-05-18 21:49:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492266eaa90-A8dPKY.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-3-controllo-del-flusso-in-c/index.html
+[2024-05-18 21:49:27] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:158] Adding 26 URLs to the queue
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: -í¥xt$X¨QÖ•èL™º:Çª
+[2024-05-18 21:49:28] [class-ss-page.php:125] Checking Content Identical:2d92b478742458ac5185a58f4caabc033a821ebb===. Value: TRUE
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-3-controllo-del-flusso-in-c/feed/
+[2024-05-18 21:49:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 55
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226878c70-MKkZLl.tmp
+[2024-05-18 21:49:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-3-controllo-del-flusso-in-c/feed/?simply_static_page=127
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-3-controllo-del-flusso-in-c/feed/?simply_static_page=127
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:103] Filesize: 834 bytes
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-3-controllo-del-flusso-in-c/feed/index.xml
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226878c70-MKkZLl.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-3-controllo-del-flusso-in-c/feed/index.xml
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: 6«Õ Mxàƒx©fCÿ5Ÿ2·l
+[2024-05-18 21:49:28] [class-ss-page.php:125] Checking Content Identical:36c7cdca4d087888c4f078a96643d835d932e16c===. Value: TRUE
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/
+[2024-05-18 21:49:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 55
+[2024-05-18 21:49:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492268de4f7-3hhdFb.tmp
+[2024-05-18 21:49:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/?simply_static_page=128
+[2024-05-18 21:49:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/?simply_static_page=128
+[2024-05-18 21:49:29] [class-ss-url-fetcher.php:103] Filesize: 85306 bytes
+[2024-05-18 21:49:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:29] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/index.html
+[2024-05-18 21:49:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492268de4f7-3hhdFb.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/index.html
+[2024-05-18 21:49:29] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:158] Adding 28 URLs to the queue
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ø`%IÜ"ºÀ p·¢πﬁ~⁄ùg<É
+[2024-05-18 21:49:30] [class-ss-page.php:125] Checking Content Identical:bf6025498622bccb2070e1a2b9de7eda9d673c83===. Value: TRUE
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/feed/
+[2024-05-18 21:49:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 55
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226a63ec1-0eAEOu.tmp
+[2024-05-18 21:49:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/feed/?simply_static_page=129
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/feed/?simply_static_page=129
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:103] Filesize: 846 bytes
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/feed/index.xml
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226a63ec1-0eAEOu.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/feed/index.xml
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: fkxÿØ;kj-À'6É⁄ÙâqJ›
+[2024-05-18 21:49:30] [class-ss-page.php:125] Checking Content Identical:666b78d8af3b6b6a0e2dcb273683daf489714add===. Value: TRUE
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-1-i-primi-passi/
+[2024-05-18 21:49:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 55
+[2024-05-18 21:49:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226ac5e56-W9tNVo.tmp
+[2024-05-18 21:49:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-1-i-primi-passi/?simply_static_page=130
+[2024-05-18 21:49:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-1-i-primi-passi/?simply_static_page=130
+[2024-05-18 21:49:31] [class-ss-url-fetcher.php:103] Filesize: 81831 bytes
+[2024-05-18 21:49:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:31] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-1-i-primi-passi/index.html
+[2024-05-18 21:49:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226ac5e56-W9tNVo.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-1-i-primi-passi/index.html
+[2024-05-18 21:49:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:158] Adding 27 URLs to the queue
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ’ f«o•[v£6”b®ôq
+[2024-05-18 21:49:32] [class-ss-page.php:125] Checking Content Identical:151ad52066c76fa50e045b7604a336d362a89971===. Value: TRUE
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/05/18/lezione-1-i-primi-passi/feed/
+[2024-05-18 21:49:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 55
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226c4890c-4hzaal.tmp
+[2024-05-18 21:49:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/05/18/lezione-1-i-primi-passi/feed/?simply_static_page=131
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/05/18/lezione-1-i-primi-passi/feed/?simply_static_page=131
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:103] Filesize: 797 bytes
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/18/lezione-1-i-primi-passi/feed/index.xml
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226c4890c-4hzaal.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/05/18/lezione-1-i-primi-passi/feed/index.xml
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ƒÒÌmÍƒ'çî•(ﬁœÚÿﬂœ
+[2024-05-18 21:49:32] [class-ss-page.php:125] Checking Content Identical:c4f11bed6dea07c4278d94a528decff2d80edfcf===. Value: TRUE
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/03/18/introduzione-al-corso-csharp/
+[2024-05-18 21:49:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 55
+[2024-05-18 21:49:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226ca34a9-CeJpEn.tmp
+[2024-05-18 21:49:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/03/18/introduzione-al-corso-csharp/?simply_static_page=132
+[2024-05-18 21:49:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/03/18/introduzione-al-corso-csharp/?simply_static_page=132
+[2024-05-18 21:49:33] [class-ss-url-fetcher.php:103] Filesize: 88768 bytes
+[2024-05-18 21:49:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:33] [class-ss-url-fetcher.php:233] New filename for static page: /2024/03/18/introduzione-al-corso-csharp/index.html
+[2024-05-18 21:49:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226ca34a9-CeJpEn.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/03/18/introduzione-al-corso-csharp/index.html
+[2024-05-18 21:49:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:158] Adding 26 URLs to the queue
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: sçÂèã◊,∞pÅã"*ˇ_é
+[2024-05-18 21:49:34] [class-ss-page.php:125] Checking Content Identical:738de58f8bd72c10b0157081018b22152aff5f8e===. Value: TRUE
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/fonts/dashicons.eot
+[2024-05-18 21:49:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 55
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226e330d1-5n8Ivg.tmp
+[2024-05-18 21:49:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/fonts/dashicons.eot?simply_static_page=133
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/fonts/dashicons.eot?simply_static_page=133
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:103] Filesize: 56564 bytes
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.eot
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226e330d1-5n8Ivg.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/fonts/dashicons.eot
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˘◊*ó¬kπaç}~›˝e"ë
+[2024-05-18 21:49:34] [class-ss-page.php:125] Checking Content Identical:f90206d72a97c26bb9618d7d7e0d10ddfd652291===. Value: TRUE
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/fonts/dashicons.ttf
+[2024-05-18 21:49:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 55
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226e3a275-xB7cV4.tmp
+[2024-05-18 21:49:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/fonts/dashicons.ttf?simply_static_page=134
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/fonts/dashicons.ttf?simply_static_page=134
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:103] Filesize: 56392 bytes
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/fonts/dashicons.ttf
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226e3a275-xB7cV4.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/fonts/dashicons.ttf
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: TÊF¡ruá‹èúî∂vµ‰¢¸Óß
+[2024-05-18 21:49:34] [class-ss-page.php:125] Checking Content Identical:540fe646c1727587dc8f9c94b676b5e4a2fceea7===. Value: TRUE
+[2024-05-18 21:49:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 28 of 55 pages/files
+[2024-05-18 21:49:34] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-18 21:49:34] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-18 21:49:34] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:69] Total pages: 75; Pages remaining: 20
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fwp-admin%2F%3Fsimply_static_page%3D108&reauth=1
+[2024-05-18 21:49:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 75
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fwp-admin%2F%3Fsimply_static_page%3D108&reauth=1
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/category/corsi-sul-web-3-0/fare-design-con-figma/
+[2024-05-18 21:49:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 75
+[2024-05-18 21:49:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649226ea58fe-JGFTNq.tmp
+[2024-05-18 21:49:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/category/corsi-sul-web-3-0/fare-design-con-figma/?simply_static_page=136
+[2024-05-18 21:49:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/category/corsi-sul-web-3-0/fare-design-con-figma/?simply_static_page=136
+[2024-05-18 21:49:35] [class-ss-url-fetcher.php:103] Filesize: 73282 bytes
+[2024-05-18 21:49:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:35] [class-ss-url-fetcher.php:233] New filename for static page: /category/corsi-sul-web-3-0/fare-design-con-figma/index.html
+[2024-05-18 21:49:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649226ea58fe-JGFTNq.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/category/corsi-sul-web-3-0/fare-design-con-figma/index.html
+[2024-05-18 21:49:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:158] Adding 20 URLs to the queue
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ùä)@≈⁄±3xs8=ïÈ[©ø+
+[2024-05-18 21:49:36] [class-ss-page.php:125] Checking Content Identical:f48a02291c40c5dab1337873383d95e95ba9bf2b===. Value: TRUE
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/js/comment-reply.min.js
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492270341db-b4OQUh.tmp
+[2024-05-18 21:49:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/js/comment-reply.min.js?simply_static_page=137
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/js/comment-reply.min.js?simply_static_page=137
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492270341db-b4OQUh.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/js/comment-reply.min.js
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: €6ßj™ cøæ¿,,ñt8≈¢E
+[2024-05-18 21:49:36] [class-ss-page.php:125] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: TRUE
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/button/style.min.css
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922703aa2b-kpCZWh.tmp
+[2024-05-18 21:49:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/button/style.min.css?simply_static_page=138
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/button/style.min.css?simply_static_page=138
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:103] Filesize: 3149 bytes
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/button/style.min.css
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922703aa2b-kpCZWh.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/button/style.min.css
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ès&†ı∂£¸˝=!áëí≈’∑
+[2024-05-18 21:49:36] [class-ss-page.php:125] Checking Content Identical:8f017326a0f5b6a3fcfd3d21879192c50b1bd5b7===. Value: TRUE
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/comments/style.min.css
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649227042e0d-F5bh6M.tmp
+[2024-05-18 21:49:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/comments/style.min.css?simply_static_page=139
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/comments/style.min.css?simply_static_page=139
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:103] Filesize: 2326 bytes
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/comments/style.min.css
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649227042e0d-F5bh6M.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/comments/style.min.css
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: §˜8Îkƒ©µ°óõ∞öOip“B
+[2024-05-18 21:49:36] [class-ss-page.php:125] Checking Content Identical:a4f738eb6bc4a9b5a197121d9bb09a4f6970d242===. Value: TRUE
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/css/dist/block-library/common.min.css
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922704bb10-WxAQSt.tmp
+[2024-05-18 21:49:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/css/dist/block-library/common.min.css?simply_static_page=140
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/css/dist/block-library/common.min.css?simply_static_page=140
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922704bb10-WxAQSt.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/css/dist/block-library/common.min.css
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‚&7µ÷ÆzAä‚–»£b∑˙
+[2024-05-18 21:49:36] [class-ss-page.php:125] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: TRUE
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/40
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/40
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/38
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/38
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/36
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/36
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/category/corsi-di-programmazione/la-programmazione-in-csharp/
+[2024-05-18 21:49:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 75
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649227059456-lBT8pw.tmp
+[2024-05-18 21:49:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/category/corsi-di-programmazione/la-programmazione-in-csharp/?simply_static_page=144
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/category/corsi-di-programmazione/la-programmazione-in-csharp/?simply_static_page=144
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:103] Filesize: 87904 bytes
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:233] New filename for static page: /category/corsi-di-programmazione/la-programmazione-in-csharp/index.html
+[2024-05-18 21:49:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649227059456-lBT8pw.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/category/corsi-di-programmazione/la-programmazione-in-csharp/index.html
+[2024-05-18 21:49:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:158] Adding 26 URLs to the queue
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ®èjß˛áo-fXJÿHß€qg‘
+[2024-05-18 21:49:37] [class-ss-page.php:125] Checking Content Identical:a88f6aa7fe876f2d66584ad84819a7db716702d4===. Value: TRUE
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/32
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/32
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/30
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/30
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/26
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/26
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/22
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/22
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/20
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/20
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/table/style.min.css
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492271e419b-4qeTIZ.tmp
+[2024-05-18 21:49:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/table/style.min.css?simply_static_page=150
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/table/style.min.css?simply_static_page=150
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:103] Filesize: 3855 bytes
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/table/style.min.css
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492271e419b-4qeTIZ.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/wp-includes/blocks/table/style.min.css
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ú∑Ωç‚˙ò?À±Ú Bﬁá¬∆
+[2024-05-18 21:49:37] [class-ss-page.php:125] Checking Content Identical:179c08b7bd8de2fa983fcbb1f22042de8716c2c6===. Value: TRUE
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/15
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/15
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/13
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/13
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/2024/03/18/introduzione-al-corso-csharp/feed/
+[2024-05-18 21:49:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 75
+[2024-05-18 21:49:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492271eeccb-zmGyjj.tmp
+[2024-05-18 21:49:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/2024/03/18/introduzione-al-corso-csharp/feed/?simply_static_page=153
+[2024-05-18 21:49:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/2024/03/18/introduzione-al-corso-csharp/feed/?simply_static_page=153
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:103] Filesize: 2449 bytes
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:233] New filename for static page: /2024/03/18/introduzione-al-corso-csharp/feed/index.xml
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492271eeccb-zmGyjj.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/2024/03/18/introduzione-al-corso-csharp/feed/index.xml
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ⁄¿RDQßx0Ã”…‚º…
+[2024-05-18 21:49:38] [class-ss-page.php:125] Checking Content Identical:dac0524451a778300f10cc0b1bd3c918e2bc18c9===. Value: TRUE
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/posts/1
+[2024-05-18 21:49:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 75
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/posts/1
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 55 of 75 pages/files
+[2024-05-18 21:49:38] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-18 21:49:38] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-18 21:49:38] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:69] Total pages: 79; Pages remaining: 4
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/category/corsi-sul-web-3-0/fare-design-con-figma/feed/
+[2024-05-18 21:49:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 79
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/664922725dd82-8lJ4Am.tmp
+[2024-05-18 21:49:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/category/corsi-sul-web-3-0/fare-design-con-figma/feed/?simply_static_page=155
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/category/corsi-sul-web-3-0/fare-design-con-figma/feed/?simply_static_page=155
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:103] Filesize: 15248 bytes
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:233] New filename for static page: /category/corsi-sul-web-3-0/fare-design-con-figma/feed/index.xml
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/664922725dd82-8lJ4Am.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/category/corsi-sul-web-3-0/fare-design-con-figma/feed/index.xml
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:158] Adding 8 URLs to the queue
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: â$Í‚+=ÑŸ\u(*ñÔf≠
+[2024-05-18 21:49:38] [class-ss-page.php:125] Checking Content Identical:198924ea03e22b3d8413d95c75282a96ef1b66ad===. Value: TRUE
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/categories/5
+[2024-05-18 21:49:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 79
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/categories/5
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/category/corsi-di-programmazione/la-programmazione-in-csharp/feed/
+[2024-05-18 21:49:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 79
+[2024-05-18 21:49:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/66492272c9e89-hUvoNY.tmp
+[2024-05-18 21:49:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/category/corsi-di-programmazione/la-programmazione-in-csharp/feed/?simply_static_page=157
+[2024-05-18 21:49:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/category/corsi-di-programmazione/la-programmazione-in-csharp/feed/?simply_static_page=157
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:103] Filesize: 54525 bytes
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:233] New filename for static page: /category/corsi-di-programmazione/la-programmazione-in-csharp/feed/index.xml
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/66492272c9e89-hUvoNY.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946/category/corsi-di-programmazione/la-programmazione-in-csharp/feed/index.xml
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:158] Adding 18 URLs to the queue
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˝MvÅ‹◊æÑ£e¶ •u˙Ø⁄k]a
+[2024-05-18 21:49:39] [class-ss-page.php:125] Checking Content Identical:fd4d7681dcd7be84a365a600a575faafda6b5d61===. Value: TRUE
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/categories/3
+[2024-05-18 21:49:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 79
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/categories/3
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-18 21:49:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 75 of 79 pages/files
+[2024-05-18 21:49:39] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-18 21:49:39] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-18 21:49:39] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-18 21:49:39] [class-ss-fetch-urls-task.php:69] Total pages: 79; Pages remaining: 0
+[2024-05-18 21:49:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 79 of 79 pages/files
+[2024-05-18 21:49:39] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-05-18 21:49:39] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-05-18 21:49:39] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-05-18 21:49:39] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\EdoGa\AppData\Local\Temp/6649227353779-GqKIAQ.tmp
+[2024-05-18 21:49:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/1716068980?simply_static_page=0
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/1716068980?simply_static_page=0
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:103] Filesize: 60331 bytes
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-05-18 21:49:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\EdoGa\AppData\Local\Temp/6649227353779-GqKIAQ.tmp to C:\xampp\htdocs/wp-content/uploads\simply-static\temp-files/simply-static-1-1716068946\404/index.html
+[2024-05-18 21:49:39] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-05-18 21:49:40] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-05-18 21:49:40] [class-ss-page.php:125] Checking Content Identical:5a6e85e50b830639d22954b78fd5aa2448545598===. Value: TRUE
+[2024-05-18 21:49:40] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-05-18 21:49:40] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-05-18 21:49:40] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-05-18 21:49:40] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-05-18 21:49:40] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 50 of 60 files
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/pagina-di-esempio
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/patterns/images
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/navigation
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/comments/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/navigation
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/assets/styles
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/cover
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/image
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/social-links
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/css
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/js/dist
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-content/themes/ollie/assets/fonts
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-admin
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/pagina-di-esempio/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-3-prototipazione-e-condivisione-in-figma/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-2-disegno-e-modifica-in-figma
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-2-disegno-e-modifica-in-figma/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-1-fare-design-come
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-1-fare-design-come/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-7-multithreading-in-c
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-7-multithreading-in-c/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-6-manipolazione-dei-file-in-c
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-6-manipolazione-dei-file-in-c/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-5-gestione-delle-eccezioni-e-debugging-in-c/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-4-la-oop-c
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-4-la-oop-c/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-3-controllo-del-flusso-in-c
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-3-controllo-del-flusso-in-c/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-2-tipi-di-dati-e-variabili-in-c/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-1-i-primi-passi
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/05/18/lezione-1-i-primi-passi/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/03/18/introduzione-al-corso-csharp
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/fonts
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/fonts
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:60. Processed Pages: 50
+[2024-05-18 21:49:41] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 60 files
+[2024-05-18 21:49:41] [trait-can-process-pages.php:103] Total pages: 60; Pages remaining: 10
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:181] We're not done with the transfer_files_locally task yet
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-05-18 21:49:41] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 10 of 60 files
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/category/corsi-sul-web-3-0/fare-design-con-figma
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/js
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/button
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/comments
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/css/dist/block-library
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/category/corsi-di-programmazione/la-programmazione-in-csharp
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/wp-includes/blocks/table
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/2024/03/18/introduzione-al-corso-csharp/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/category/corsi-sul-web-3-0/fare-design-con-figma/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/Users/EdoGa/Documents/GitHub/OpenAcademyStatic/category/corsi-di-programmazione/la-programmazione-in-csharp/feed
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:60. Processed Pages: 60
+[2024-05-18 21:49:41] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 60 of 60 files
+[2024-05-18 21:49:41] [trait-can-process-pages.php:103] Total pages: 60; Pages remaining: 0
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:\Users\EdoGa\Documents\GitHub\OpenAcademyStatic\404\index.html
+[2024-05-18 21:49:41] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-05-18 21:49:41] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-05-18 21:49:41] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-05-18 21:49:41] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:35
+[2024-05-19 09:41:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost
+[2024-05-19 09:41:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost

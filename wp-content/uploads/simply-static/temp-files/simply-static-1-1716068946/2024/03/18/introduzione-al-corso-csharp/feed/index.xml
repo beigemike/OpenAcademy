@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commenti a: Introduzione al corso C#	</title>
+	<atom:link href="/2024/03/18/introduzione-al-corso-csharp/feed/" rel="self" type="application/rss+xml" />
+	<link>/2024/03/18/introduzione-al-corso-csharp/</link>
+	<description></description>
+	<lastBuildDate>Sat, 18 May 2024 17:59:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>
+		Di: beigemike		</title>
+		<link>/2024/03/18/introduzione-al-corso-csharp/#comment-2</link>
+
+		<dc:creator><![CDATA[beigemike]]></dc:creator>
+		<pubDate>Sat, 18 May 2024 17:59:11 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1#comment-2</guid>
+
+					<description><![CDATA[In risposta a &lt;a href=&quot;/2024/03/18/introduzione-al-corso-csharp/#comment-1&quot;&gt;sypher-emi&lt;/a&gt;.
+
+Certo! In una delle future lezioni ci sarà sicuramente una dedicata alla manipolazione dei file. Grazie per essere uno di noi in OpenAcademy!
+
+- Edoardo, OpenAcademy Writer]]></description>
+			<content:encoded><![CDATA[<p>In risposta a <a href="/2024/03/18/introduzione-al-corso-csharp/#comment-1">sypher-emi</a>.</p>
+<p>Certo! In una delle future lezioni ci sarà sicuramente una dedicata alla manipolazione dei file. Grazie per essere uno di noi in OpenAcademy!</p>
+<p>&#8211; Edoardo, OpenAcademy Writer</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Di: sypher-emi		</title>
+		<link>/2024/03/18/introduzione-al-corso-csharp/#comment-1</link>
+
+		<dc:creator><![CDATA[sypher-emi]]></dc:creator>
+		<pubDate>Mon, 18 Mar 2024 12:06:55 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1#comment-1</guid>
+
+					<description><![CDATA[Ciao! Potreste mica parlare della manipolazione dei file in C#? Mi servirebbe per un progettino...]]></description>
+			<content:encoded><![CDATA[<p>Ciao! Potreste mica parlare della manipolazione dei file in C#? Mi servirebbe per un progettino&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
